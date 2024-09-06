@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile">
+            <img src="rajimage.jpeg" alt="Your Photo">
+            <p>Hello! I am Rajkumar Kushwaha, a passionate software developer with expertise in web technologies and
+                 a keen eye for detail. I love creating dynamic and responsive web applications.<br>
+                 Targeting Full stack Developer role with an organisation of high repute with a scope of improving and further
+                    career growth.<br>
+                         •   MERN stack (MongoDB, Express.js, React, Node.js) with a strong background in building scalable web 
+                             applications.<br>
+                         •   Demonstrated ability to manage and deliver projects efficiently, from initial planning and design to final
+                              deployment and maintenance.<br>
+                         •   Commited to staying updated with the industry trends and technologies,  continuously enhancing  skill
+                              to provide innovative solution. </p>
+        </div>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h5>Babu Banarasi Das Northern India Institute Of Technology, Lucknow, Uttar Pradesh</h5> 
+            <h6>B.Tech in Computer Science, Expected Graduation: June 2025</h6>
+            <h6>CGPA: 7.4</h6>
+        </div>
+        <br>
+        <div class="education-item">
+            <h5>Higher Secondary School, Gopalganj, Bihar</h5>                        
+            <h6>P.P.G College Chaumukha, April 2020</h6>
+            <h6>Percentage: 77.4</h6>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li><i class="fas fa-code"></i> Java</li>
+                <li><i class="fas fa-code"></i> JavaScript</li>
+                <li><i class="fas fa-code"></i> HTML/CSS</li>
+                <li><i class="fas fa-server"></i> Node.js</li>
+                <li><i class="fas fa-database"></i> MySQL</li>
+                <li><i class="fas fa-project-diagram"></i> Express.js</li>
+            </ul>
+            <ul>
+                <li><i class="fas fa-code"></i> React</li>
+                <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                <li><i class="fas fa-code"></i> C Language</li>
+                <li><i class="fas fa-cogs"></i> Data Structures & Algorithms</li>
+                <li><i class="fas fa-code"></i> Bootstrap</li>
+                <li><i class="fas fa-code"></i> SQL</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Simon Game</h3>
+            <p>A web-based memory game built using HTML, CSS, and JavaScript, where players must repeat an increasingly complex pattern of visual cues.
+                 Features dynamic UI updates and interactive gameplay, showcasing skills in DOM manipulation and event handling..</p>
+        </div>
+        <div class="project">
+            <h3>Portfolio</h3>
+            <p>A personal portfolio website built using HTML, CSS, and JavaScript, featuring sections like About, Projects, Education,
+                 Skills, and Contact. It showcases professional work,projects, and technical skills, with integrated links to GitHub, 
+                 LinkedIn, and Instagram. Designed with a responsive layout for seamless user experience across devices</p>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume/CV</h2>
+        <a href="resume.pdf" target="_blank"><i class="fas fa-download"></i> Download My Resume/CV</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="contactNo">Contact No:</label>
+            <textarea id="Contact No" name="Contact" required></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Rajkumar Kushwaha! All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://github.com/RajKumarKushawaha" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://linkedin.com/in/rajkumar-kushwaha-949976301" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://instagram.com/am.r4zk" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
